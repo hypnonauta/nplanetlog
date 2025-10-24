@@ -21,6 +21,13 @@ header {
     color: #eceff4;
 }
 
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
 .logos {
     display: flex;
     justify-content: space-evenly;
@@ -36,15 +43,15 @@ h1 {
 }
 
 table {
-    text-align: center;
     border-collapse: collapse;
     padding: 5px;
-    margin: 0 10px 10px 10px; 
+    margin: 0 10px 10px 10px;
+    width: 100%;
 
 }
 
 th {
-    /* background-color: #2e3440; */
+    text-align: center;
     background-color: #3b4252;
     border: solid 1px #eceff4;
     color: #eceff4;
